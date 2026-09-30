@@ -1,40 +1,811 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Mugala Ryan | Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <h1>Hello, I'm Mugala Ryan </h1>
-        <p>I'm a passionate web developer specializing in creating responsive and user-friendly websites.</p>
+<head>
+    <meta charset="UTF-8">
 
-        <button id="btn">Click Me</button>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script src="script.js"></script>
+    <meta
+        name="description"
+        content="Mugala Ryan - IT student and web developer portfolio."
+    >
 
-    
-    <!-- Header -->
-     <header>
-        <h1>Mugala Ryan</h1>
-        <p>Web Developer</p>
-     </header>
+    <title>Mugala Ryan | IT Student & Web Developer</title>
 
-     <!-- About Section -->
-      <section>
-        ,<h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Git & GitHub</li>  
-        </ul>
-      </section>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-      <!-- Projects Section -->
-       <section>
-        <h2>Contact</h2>
-        <p>Email: ryanmugala432@gmail.com</p>
-       </section>
-    </body>
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                RM<span>.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO SECTION
+        ========================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="hero-intro">
+                    Hello, I'm
+                </p>
+
+                <h1>
+                    Mugala <span>Ryan</span>
+                </h1>
+
+                <h2>
+                    IT Student & Web Developer
+                </h2>
+
+                <p class="hero-description">
+                    I build practical digital solutions while developing
+                    my skills in web development, software, cybersecurity,
+                    cloud, DevOps and artificial intelligence.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        View My Projects
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT SECTION
+        ========================== -->
+
+        <section class="section about" id="about">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    About Me
+                </p>
+
+                <h2>
+                    Learning. Building. Improving.
+                </h2>
+
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        I'm an Information Technology student with a strong
+                        interest in building useful technology solutions.
+                        My journey in IT has allowed me to explore different
+                        areas of software development and technology.
+                    </p>
+
+                    <p>
+                        I started with the fundamentals of web development
+                        using HTML, CSS and JavaScript. I have continued
+                        expanding my knowledge into TypeScript, React,
+                        Next.js, databases, backend development and
+                        programming.
+                    </p>
+
+                    <p>
+                        I'm also developing my knowledge in cybersecurity,
+                        cloud computing, DevOps and artificial intelligence.
+                        My goal is to combine these skills to create
+                        practical solutions to real-world problems.
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <div class="about-card-item">
+                        <strong>Education</strong>
+                        <span>BSc Information Technology</span>
+                    </div>
+
+                    <div class="about-card-item">
+                        <strong>Focus</strong>
+                        <span>Technology & Software</span>
+                    </div>
+
+                    <div class="about-card-item">
+                        <strong>Location</strong>
+                        <span>Kenya</span>
+                    </div>
+
+                    <div class="about-card-item">
+                        <strong>Current Goal</strong>
+                        <span>Build practical IT solutions</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SKILLS SECTION
+        ========================== -->
+
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    My Skills
+                </p>
+
+                <h2>
+                    Technologies & Areas I'm Learning
+                </h2>
+
+                <p>
+                    A growing technical skill set developed through
+                    university coursework, personal projects and
+                    practical development.
+                </p>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <!-- Web Development -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+                    <p>
+                        Building responsive and user-friendly websites
+                        using modern web technologies.
+                    </p>
+
+                    <div class="skill-tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Software Development -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        { }
+                    </div>
+
+                    <h3>
+                        Software Development
+                    </h3>
+
+                    <p>
+                        Developing software solutions while strengthening
+                        programming and problem-solving fundamentals.
+                    </p>
+
+                    <div class="skill-tags">
+
+                        <span>C++</span>
+                        <span>Python</span>
+                        <span>React</span>
+                        <span>Next.js</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Databases -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        DB
+                    </div>
+
+                    <h3>
+                        Databases
+                    </h3>
+
+                    <p>
+                        Learning database design, data management,
+                        queries and application database integration.
+                    </p>
+
+                    <div class="skill-tags">
+
+                        <span>SQL</span>
+                        <span>MySQL</span>
+                        <span>PostgreSQL</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Version Control -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        Git
+                    </div>
+
+                    <h3>
+                        Version Control
+                    </h3>
+
+                    <p>
+                        Managing projects, tracking changes and
+                        collaborating using Git and GitHub.
+                    </p>
+
+                    <div class="skill-tags">
+
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>VS Code</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Cybersecurity -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        🔐
+                    </div>
+
+                    <h3>
+                        Cybersecurity
+                    </h3>
+
+                    <p>
+                        Developing foundational knowledge in cybersecurity,
+                        networking, security concepts and secure systems.
+                    </p>
+
+                    <div class="skill-tags">
+
+                        <span>Cybersecurity</span>
+                        <span>Networking</span>
+                        <span>Security</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Cloud & DevOps -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        ☁
+                    </div>
+
+                    <h3>
+                        Cloud & DevOps
+                    </h3>
+
+                    <p>
+                        Currently developing practical knowledge of cloud
+                        computing, deployment and DevOps workflows.
+                    </p>
+
+                    <div class="skill-tags">
+
+                        <span>Cloud</span>
+                        <span>DevOps</span>
+                        <span>Deployment</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- AI -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        AI
+                    </div>
+
+                    <h3>
+                        Artificial Intelligence
+                    </h3>
+
+                    <p>
+                        Exploring AI tools and ways artificial intelligence
+                        can be applied to practical technology solutions.
+                    </p>
+
+                    <div class="skill-tags">
+
+                        <span>AI Tools</span>
+                        <span>AI Solutions</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Systems -->
+
+                <article class="skill-card">
+
+                    <div class="skill-icon">
+                        ⚙
+                    </div>
+
+                    <h3>
+                        IT & Systems
+                    </h3>
+
+                    <p>
+                        Studying computer systems, system analysis,
+                        networking and information technology fundamentals.
+                    </p>
+
+                    <div class="skill-tags">
+
+                        <span>Systems Analysis</span>
+                        <span>Networking</span>
+                        <span>Computer Systems</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS SECTION
+        ========================== -->
+
+        <section class="section projects-section" id="projects">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    My Work
+                </p>
+
+                <h2>
+                    Projects
+                </h2>
+
+                <p>
+                    Some of the projects and practical work I've worked
+                    on while developing my technical skills.
+                </p>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            Web Development
+                        </p>
+
+                        <h3>
+                            Logical Solutions
+                        </h3>
+
+                        <p>
+                            A technology services website focused on
+                            software development, cybersecurity, cloud
+                            and DevOps, and AI solutions.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>React</span>
+                            <span>UI/UX</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Project 2 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            Web Development
+                        </p>
+
+                        <h3>
+                            Sunlight Hope Foundation
+                        </h3>
+
+                        <p>
+                            A website created for a community-focused
+                            foundation to present its mission, activities
+                            and ways people can support its work.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Web Development</span>
+                            <span>Responsive Design</span>
+                            <span>Vercel</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Project 3 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            Personal Project
+                        </p>
+
+                        <h3>
+                            Personal Portfolio
+                        </h3>
+
+                        <p>
+                            My personal portfolio website showcasing my
+                            technical skills, projects, education and
+                            ongoing learning journey.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Project 4 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        04
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            Programming
+                        </p>
+
+                        <h3>
+                            Python Mini Project
+                        </h3>
+
+                        <p>
+                            A practical Python project created while
+                            strengthening programming fundamentals and
+                            learning how to structure and manage projects
+                            with Git and GitHub.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Python</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EDUCATION SECTION
+        ========================== -->
+
+        <section class="section education-section" id="education">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    Education
+                </p>
+
+                <h2>
+                    My Learning Journey
+                </h2>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <div class="education-year">
+                    2025 — Present
+                </div>
+
+                <div class="education-info">
+
+                    <h3>
+                        Bachelor of Science in Information Technology
+                    </h3>
+
+                    <p class="institution">
+                        Africa International University
+                    </p>
+
+                    <p>
+                        Studying information technology with coursework
+                        covering programming, databases, networking,
+                        computer systems, data structures and system
+                        analysis and design.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CURRENTLY LEARNING
+        ========================== -->
+
+        <section class="section learning-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    Currently Learning
+                </p>
+
+                <h2>
+                    What's Next?
+                </h2>
+
+                <p>
+                    Technology is constantly changing, so I'm continuing
+                    to expand my skills beyond traditional web development.
+                </p>
+
+            </div>
+
+
+            <div class="learning-grid">
+
+                <div class="learning-item">
+                    <span>01</span>
+                    <h3>Cybersecurity</h3>
+                    <p>
+                        Building stronger foundations in security,
+                        networks and secure systems.
+                    </p>
+                </div>
+
+                <div class="learning-item">
+                    <span>02</span>
+                    <h3>Cloud Computing</h3>
+                    <p>
+                        Understanding cloud infrastructure,
+                        services and deployment.
+                    </p>
+                </div>
+
+                <div class="learning-item">
+                    <span>03</span>
+                    <h3>DevOps</h3>
+                    <p>
+                        Learning modern development, deployment,
+                        automation and CI/CD workflows.
+                    </p>
+                </div>
+
+                <div class="learning-item">
+                    <span>04</span>
+                    <h3>Artificial Intelligence</h3>
+                    <p>
+                        Exploring AI tools and practical AI-powered
+                        solutions.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT SECTION
+        ========================== -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="contact-content">
+
+                <p class="section-label">
+                    Get In Touch
+                </p>
+
+                <h2>
+                    Let's Build Something Useful.
+                </h2>
+
+                <p>
+                    I'm interested in technology, development and
+                    opportunities where I can learn, build and contribute.
+                </p>
+
+                <a
+                    href="mailto:ryanmugala432@gmail.com"
+                    class="btn primary-btn"
+                >
+                    Email Me
+                </a>
+
+                <div class="contact-details">
+
+                    <p>
+                        <strong>Email:</strong>
+                        ryanmugala432@gmail.com
+                    </p>
+
+                    <p>
+                        <strong>Location:</strong>
+                        Kenya
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <p>
+            © <span id="currentYear"></span> Mugala Ryan.
+            Built with HTML, CSS & JavaScript.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
 </html>
